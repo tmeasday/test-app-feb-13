@@ -7,9 +7,7 @@ export default {
   component: Button,
 };
 
-export const Text = () => {
-  throw new Error('error');
-};
+export const Text = () => <Button onClick={action('clicked')}>Hello Feature</Button>;
 
 export const Emoji = () => (
   <Button onClick={action('clicked')}>
