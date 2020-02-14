@@ -12,7 +12,7 @@ export const Text = () => <Button onClick={action('clicked')}>Hello Feature</But
 export const Emoji = () => (
   <Button onClick={action('clicked')}>
     <span role="img" aria-label="so cool">
-      😀 😎 👍 💯
+      EMOJIs
     </span>
   </Button>
 );
