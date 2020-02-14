@@ -18,3 +18,5 @@ export const Emoji = () => (
     </span>
   </Button>
 );
+
+export const NewButton = () => <Button>Button</Button>;
